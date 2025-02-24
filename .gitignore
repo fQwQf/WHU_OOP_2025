@@ -1,5 +1,7 @@
-# Compiled class file
-*.class
+.idea
+.metals
+.vscode
+out
 
 # Log file
 *.log
