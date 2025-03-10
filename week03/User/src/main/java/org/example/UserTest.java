@@ -1,12 +1,14 @@
 package org.example;
 
-public class UserManualTest {
+public class UserTest {
     public static void main(String[] args) {
-        UserManualBuilder user = UserManualBuilder.builder()
+        User user = User.builder()
                 .name("fQwQf")
                 .age(18)
                 .email("fQwQf6@outlook.com")
                 .build();
-        System.out.println(user.toString());
+        System.out.println(user.getAge());
+        System.out.println(user.getName());
+        System.out.println(user.getEmail());
     }
 }

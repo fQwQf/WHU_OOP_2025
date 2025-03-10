@@ -1,4 +1,5 @@
 package org.example;
 
-public class ShapeFactory {
+public interface ShapeFactory {
+    Shape createShape();
 }
