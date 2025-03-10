@@ -5,11 +5,11 @@ public class Test {
         // 使用 Circle 工厂
         ShapeFactory circleFactory = new CircleFactory();
         Shape circle = circleFactory.createShape();
-        circle.draw(); // Output: Drawing a Circle.
+        circle.draw();
 
         // 使用 Rectangle 工厂
         ShapeFactory rectangleFactory = new RectangleFactory();
         Shape rectangle = rectangleFactory.createShape();
-        rectangle.draw(); // Output: Drawing a Rectangle.
+        rectangle.draw();
     }
 }
