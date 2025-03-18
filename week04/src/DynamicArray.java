@@ -44,9 +44,7 @@ public class DynamicArray {
 
     private void resize(int newCapacity) {
         int[] newArray = new int[newCapacity];
-        for (int i = 0; i < size; i++) {
-            newArray[i] = array[i];
-        }
+        if (size >= 0) System.arraycopy(array, 0, newArray, 0, size);
         array = newArray;
     }
 
