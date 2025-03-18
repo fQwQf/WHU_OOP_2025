@@ -49,4 +49,10 @@ public class DynamicArray {
         }
         array = newArray;
     }
+
+    public void print(){
+        for (int i = 0; i < size; i++) {
+            System.out.print(array[i]+" ");
+        }
+    }
 }

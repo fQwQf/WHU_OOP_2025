@@ -24,13 +24,14 @@ public class Main {
         printDynamicArray(dynamicArray);
 
         // 获取并打印特定索引的元素
-        System.out.println("Element at index 2: " dynamicArray.get(2));
+        System.out.println("Element at index 2: "+dynamicArray.get(2));
 
         // 打印当前数组的大小和容量
-        System.out.println("Size: " dynamicArray.size());
-        System.out.println("Capacity: " dynamicArray.capacity());
+        System.out.println("Size: "+dynamicArray.size());
+        System.out.println("Capacity: "+dynamicArray.capacity());
     }
 
     private static void printDynamicArray(DynamicArray dynamicArray) {
+        dynamicArray.print();
     }
 }
