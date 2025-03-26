@@ -1,4 +1,4 @@
-public class Test {
+public class LibraryTest {
     public static void processItem(Item item) {
         item.borrow();
         item.getItemDetails();
