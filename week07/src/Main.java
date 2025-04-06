@@ -81,7 +81,9 @@ public class Main {
         }
 
         // 步骤7：全局统计
-        Student max = Collections.max(uniqueStudents, new StudentComparator());
+        // 要实现降序最简单的方法就是颠倒大小比较，所以这里变成了min
+        // 🤣👉🤡
+        Student max = Collections.min(uniqueStudents, new StudentComparator());
         int passedCount = 0;
         for (Student s : uniqueStudents){
             if(s.getScore() >= 60){

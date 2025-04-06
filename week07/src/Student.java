@@ -38,6 +38,4 @@ public class Student{
         return String.format("Student{id=%d, name='%s', score=%.1f, major='%s'}",
                 id, name, score, major);
     }
-
-
 }
