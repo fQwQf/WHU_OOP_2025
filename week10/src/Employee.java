@@ -24,4 +24,8 @@ public class Employee implements Comparable<Employee> {
     public int compareTo(Employee o) {
         return this.name.compareTo(o.getName());
     }
+
+    public String getName() {
+        return this.name;
+    }
 }
